@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0DE6671E53EB3D006E1084 /* DiffuserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0DE6661E53EB3D006E1084 /* DiffuserTableViewController.swift */; };
+		4F0DE6691E53EB6D006E1084 /* TelevisionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0DE6681E53EB6D006E1084 /* TelevisionTableViewController.swift */; };
 		4F5F3A741E312F2600C2DE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5F3A731E312F2600C2DE9B /* AppDelegate.swift */; };
 		4F5F3A761E312F2600C2DE9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5F3A751E312F2600C2DE9B /* ViewController.swift */; };
 		4F5F3A791E312F2600C2DE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5F3A771E312F2600C2DE9B /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F0DE6661E53EB3D006E1084 /* DiffuserTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiffuserTableViewController.swift; sourceTree = "<group>"; };
+		4F0DE6681E53EB6D006E1084 /* TelevisionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelevisionTableViewController.swift; sourceTree = "<group>"; };
 		4F5F3A701E312F2600C2DE9B /* Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Control.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F5F3A731E312F2600C2DE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F5F3A751E312F2600C2DE9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				4F5F3A7A1E312F2600C2DE9B /* Assets.xcassets */,
 				4F5F3A7C1E312F2600C2DE9B /* LaunchScreen.storyboard */,
 				4F5F3A7F1E312F2600C2DE9B /* Info.plist */,
+				4F0DE6661E53EB3D006E1084 /* DiffuserTableViewController.swift */,
+				4F0DE6681E53EB6D006E1084 /* TelevisionTableViewController.swift */,
 			);
 			path = Control;
 			sourceTree = "<group>";
@@ -263,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F5F3A761E312F2600C2DE9B /* ViewController.swift in Sources */,
+				4F0DE6671E53EB3D006E1084 /* DiffuserTableViewController.swift in Sources */,
 				4F5F3A741E312F2600C2DE9B /* AppDelegate.swift in Sources */,
+				4F0DE6691E53EB6D006E1084 /* TelevisionTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +520,7 @@
 				4F5F3A9A1E312F2700C2DE9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F5F3A9B1E312F2700C2DE9B /* Build configuration list for PBXNativeTarget "ControlTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +529,7 @@
 				4F5F3A9D1E312F2700C2DE9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F5F3A9E1E312F2700C2DE9B /* Build configuration list for PBXNativeTarget "ControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +538,7 @@
 				4F5F3AA01E312F2700C2DE9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
